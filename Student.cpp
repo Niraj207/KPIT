@@ -6,7 +6,7 @@
  class Student
     {
         private:
-        int_roll_number;
+        int roll_number;
         std::string_name;
         float_fees;
         char_grade;

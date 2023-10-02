@@ -7,9 +7,9 @@
     {
         private:
         int roll_number;
-        std::string_name;
-        float_fees;
-        char_grade;
+        std::string s_name;
+        float _fees;
+        char _grade;
        Department _dept; //IT, CS ,AI, ML
 
        public:
@@ -22,15 +22,15 @@
         Department dept
         )
         {
-            this->_name=name;
+            this->s_name=name;
             this->_fees=fees;
-            this->_roll_number=rnum;
+            this-> roll_number=rnum;
             this->_grade=grade;
             this->_dept=dept;
         }
        ~Student(){ //destructor
         std::cout<<"student with roll no:"
-        <<this->_roll_number
+        <<this-> roll_number
         <<"is now destroyed\n";
        }
         

@@ -3,7 +3,7 @@
 #ifndef DEPARTMENT_H
 #define DEPARTMENT_H
 
-#inlcude<iostream>
+#include<iostream>
 
 
 enum class Department{

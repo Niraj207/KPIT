@@ -1,7 +1,7 @@
  #include<iostream>
 
  #include "Department.h"
-  std::cout << "Hello World!\n";
+  
     
  class Student
     {
